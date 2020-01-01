@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
+    <title>test34.com</title>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="row">
+        <div class="col l8">
+          <h1 class="site-title center-align">Our project</h1>
+        </div>
+        <div class="col l4">
+          <button class="waves-effect waves-light btn modal-show" data-modal="#sing-up"><i class="material-icons right">launch</i>Sing up</button>
+          <button class="waves-effect waves-light btn modal-show" data-modal="#log-in"><i class="material-icons right">perm_identity</i>Login</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="modal-wrap hide" id="sing-up">
+    <div class="modal-project sing-up-modal">
+      <button class="btn-floating waves-effect waves-light grey modal-project-close"><i class="material-icons">close</i></button>
+      <div class="form-slider-wrapper">
+        <div class="form-slider">
+          <div class="left-50">
+            <form>
+              <div class="row">
+                <div class="input-field col l6">
+                  <input placeholder="Your name" name="name" id="signup-name" type="text" class="validate">
+                  <label for="signup-name">Name</label>
+                </div>
+                <div class="input-field col l6">
+                  <input placeholder="Your password" name="pass" id="signup-pass" type="password">
+                  <label for="signup-pass">Password</label>
+                </div>
+                <div class="input-field col l6">
+                  <input placeholder="Your email" name="email" id="signup-email" type="email" class="validate">
+                  <label for="signup-email">Email</label>
+                </div>
+                <div class="input-field col l6">
+                  <input placeholder="Your birthday" name="birthday" id="signup-birthday" type="text" class="datepicker">
+                  <label for="signup-birthday">Birthday</label>
+                </div>
+                <div class="col l12">
+                  <p>
+                    <label>
+                      <input type="radio" value="male" name="sex" class="sex" checked>
+                      <span>Male</span>
+                    </label>
+                  </p>
+                  <p>
+                    <label>
+                      <input type="radio" value="female" name="sex" class="sex">
+                      <span>Female</span>
+                    </label>
+                  </p>
+                  <p>
+                    <label>
+                      <input type="radio" value="other" name="sex" class="sex">
+                      <span>Other</span>
+                    </label>
+                  </p>
+                </div>
+                <div class="col l6">
+                  <p>
+                    <label>
+                      <input type="checkbox" id="agree-rules">
+                      <span>I am Agree</span>
+                    </label>
+                  </p>
+                </div>
+                <div class="col l6">
+                  <p class="read-rules">(read rules)</p>
+                </div>
+                <div class="col l12 right-align">
+                  <button class="waves-effect waves-light btn disabled" id="signup-submit">Sign in</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="right-50">
+            <p class="read-rules-back">Back</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolores odio nobis omnis. Dolor,
+              impedit? Eaque enim illum at. </p>
+            <p>Exercitationem unde aperiam soluta minus aliquid at deleniti quas facilis
+              ipsam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolores odio nobis omnis. Dolor,
+              impedit? Eaque enim illum at. </p>
+            <p>Exercitationem unde aperiam soluta minus aliquid at deleniti quas facilis
+              ipsam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolores odio nobis omnis. Dolor,
+              impedit? Eaque enim illum at. </p>
+            <p>Exercitationem unde aperiam soluta minus aliquid at deleniti quas facilis
+              ipsam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolores odio nobis omnis. Dolor,
+              impedit? Eaque enim illum at. </p>
+            <p>Exercitationem unde aperiam soluta minus aliquid at deleniti quas facilis
+              ipsam.</p>
+            <p class="read-rules-back">Back</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal-wrap hide" id="log-in">
+    <div class="modal-project">
+      <form>
+        <div class="row">
+          <div class="input-field col s12">
+            <input placeholder="Your email" name="email" id="login-email" type="text" class="validate">
+            <label for="login-email">Email</label>
+          </div>
+          <div class="input-field col s12">
+            <input name="pass" id="login-pass" type="password">
+            <label for="login-pass">Password</label>
+          </div>
+          <div class="col l12 right-align">
+            <button class="waves-effect waves-light btn" id="login-submit">Login</button>
+          </div>
+        </div>
+      </form>
+      <button class="btn-floating waves-effect waves-light grey modal-project-close"><i class="material-icons">close</i></button>
+    </div>
+  </div>
+
+
+
+  <script src="js/main.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="js/ajax.js"></script>
+  <script src="js/script28.js"></script>
+</body>
+</html>
