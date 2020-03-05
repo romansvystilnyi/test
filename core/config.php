@@ -2,5 +2,5 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "fvbhg";
+$password = "";
 $dbname = "cabinet";
